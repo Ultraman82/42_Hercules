@@ -1,0 +1,95 @@
+<style type="text/css">
+
+  body{
+
+    padding: 0;
+
+    margin: 0;
+
+    background: #fff;
+
+ }
+
+  h1{
+
+     font: bold 24px Arial, Helvetica, sans-serif;
+
+      color: #000;
+
+    text-align: center;
+
+ }
+
+ p{
+
+     font: bold 12px Arial, Helvetica, sans-serif;
+
+      color: #000;
+
+     padding-right: 100px;
+
+   text-align: right;
+
+ }
+
+ textarea{
+
+   width: 400px;
+
+    height: 300px;
+
+    padding: 2px;
+
+    font: normal 12px Arial, Helvetica, sans-serif;
+
+     color: #000;
+
+ }
+
+ #maincontainer{
+
+   width: 600px;
+
+    height: 550px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+   background: #f5ebb1;
+
+   border: 1px solid #000;
+
+ }
+
+ #state{
+
+     font: bold 12px Arial, Helvetica, sans-serif;
+
+      color: #00f;
+
+     padding: 10px 0 10px 10px;
+
+ }
+
+ .textbox{
+
+   width: 400px;
+
+    padding: 2px;
+
+    font: normal 12px Arial, Helvetica, sans-serif;
+
+     color: #000;
+
+ }
+
+ .formbutton{
+
+    font: normal 12px Arial, Helvetica, sans-serif;
+
+     color: #000;
+
+ }
+
+</style>

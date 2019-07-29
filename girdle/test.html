@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+  
+  </body>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  Email.send({
+      SecureToken : "0ffa277d-8568-476e-997f-1894f631d589",
+      To : 'exelcior99@gmail.com',
+      From : "you@isp.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+  </script>
+
+</html>

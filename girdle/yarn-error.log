@@ -1,0 +1,42 @@
+Arguments: 
+  /nfs/2018/c/chjeong/.brew/Cellar/node/11.14.0/bin/node /nfs/2018/c/chjeong/.brew/Cellar/yarn/1.15.2/libexec/bin/yarn.js add nodemailer
+
+PATH: 
+  /nfs/2018/c/chjeong/.brew/opt/icu4c/sbin:/nfs/2018/c/chjeong/.brew/opt/icu4c/bin:/nfs/2018/c/chjeong/shell-scripts:/nfs/2018/c/chjeong/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/munki
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /nfs/2018/c/chjeong/Desktop/Hercules/girdle/package.json: Unexpected string in JSON at position 161
+      at JSON.parse (<anonymous>)
+      at /nfs/2018/c/chjeong/.brew/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/nfs/2018/c/chjeong/.brew/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /nfs/2018/c/chjeong/.brew/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "girdle",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  	"start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
